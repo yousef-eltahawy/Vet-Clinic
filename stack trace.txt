@@ -1,0 +1,36 @@
+methodes and classes:
+
+1- BaseGatewayIntegrationService.java
+	- executePost()
+
+2- BaseTransactionGatewayIntegrationService.java
+	- find()
+
+3- SalesOrderManagerImpl.java
+	- isTransactionCreatedOnERP()
+
+4- AbstractERPPublishedEntityManager.java
+	- doActualPublishingInErp()
+	- publishInErp()
+	- publish()
+
+5- SalesOrderInvoicingHandlerImpl.java
+	- doBeforeInvoicing()
+
+6- SalesOrderManagerImpl.java
+	- invoice()
+
+7- SalesInvoiceManagerImpl.java
+	- create()
+
+8- AbstractSyncEntityServiceImpl.java
+	- doCreate()
+
+9- AbstractSyncServiceDispatcher.java
+	- dispatch()
+
+
+
+At which line a break point should be added to debug the below exception?
+
+- at line 60 --->> at com.server.gateway.client.base.BaseGatewayIntegrationService.executePost(BaseGatewayIntegrationService.java:60)
